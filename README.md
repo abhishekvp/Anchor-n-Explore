@@ -1,6 +1,8 @@
 Anchor-n-Explore
 ================
 
+Development Status: WIP
+
 A GoogleMaps-based Application for Firefox OS that helps you explore new places. The main idea behind this app is to set up an ‘Anchor’ location on the app, so that the app always shows the shortest route from your current location to the ‘Anchor’.
 
 Features:
