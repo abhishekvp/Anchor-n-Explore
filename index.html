@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 
-<html>
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width" name="viewport">
-    <link href="css/base.css" rel="stylesheet" type="text/css">
-    <link href="css/headers.css" rel="stylesheet" type="text/css">
-    <link href="css/buttons.css" rel="stylesheet" type="text/css">
-    <link href="css/toolbars.css" rel="stylesheet" type="text/css">
+    <link href="css/base.css" rel="stylesheet" type="text/css"/>
+    <link href="css/headers.css" rel="stylesheet" type="text/css"/>
+    <link href="css/buttons.css" rel="stylesheet" type="text/css"/>
+    <link href="css/toolbars.css" rel="stylesheet" type="text/css"/>
     <style>
 #googleMap {
     width: 100%;
@@ -43,22 +42,20 @@
     "http://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=true"></script>
     <script src="js/yui-min.js" type="text/javascript"></script>
 
-    <title>ANCHOR n EXPLORE</title>
+    <title>Anchor-n-Explore</title>
 </head>
 
 <body onload="initialize();">
-    <section>
-        <header>
+    <section role="region">
+          <header>
             <!-- Icon that will indicate whether you are online or offline - enabled if you are using offline/appcache (see above) -->
-
             <div id="online-status" title="Online"></div>
-
-            <div style="margin-left: 2em" type="toolbar">
-                <button id="install"><span class=
-                "icon icon-add">add</span></button>
-            </div>
-
-            <h1>ANCHOR n EXPLORE</h1>
+            <menu type="toolbar">
+                <button id="install"><span class="icon icon-add">add</span></button>
+            </menu>
+            <h1>
+                Anchor-n-Explore
+            </h1>
         </header>
     </section>
 
@@ -80,9 +77,9 @@
     </div>
 
     <footer>
-        <div>
+    <div role="toolbar">
             <ul>
-                <li><button class="update" id="reload">Update</button></li>
+                <li><button id="reload" class="update">Update</button></li>
             </ul>
         </div>
     </footer><script src="js/base.js" type="text/javascript"></script> <script src="js/webapp.js" type="text/javascript"></script> <script src="js/offline.js" type="text/javascript"></script> <script type="text/javascript">

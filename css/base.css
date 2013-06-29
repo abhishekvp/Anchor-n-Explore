@@ -1,3 +1,8 @@
+#main {
+    padding: 1rem 1rem 6rem 1rem;
+	overflow: hidden;
+	position: relative;	
+}
 @font-face {
     font-family: 'mozTT';
     src: url('../fonts/moztt_regular-webfont.woff') format('woff');
@@ -78,14 +83,11 @@ header.show-install h1 {
     background: #ff0000;
 }
 
-#main {
-    padding: 1rem 1rem 6rem 1rem;
-	overflow: hidden;
-	position: relative;	
-}
-}
 
 
+#main h2 {
+    margin: 0 0 1rem;
+}
 
 #main img {
     max-width: 100%;
@@ -101,6 +103,13 @@ header.show-install h1 {
 #device-orientation-display {
     display: none;
     margin-bottom: 10px;
+}
+
+#main button {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin: 0 auto 2rem;
 }
 
 #image-to-share {
